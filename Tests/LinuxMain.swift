@@ -1,7 +1,7 @@
 import XCTest
 
-import UIKitOptionsTests
+import AppKitOptionsTests
 
 var tests = [XCTestCaseEntry]()
-tests += UIKitOptionsTests.allTests()
+tests += NSKitOptionsTests.allTests()
 XCTMain(tests)
